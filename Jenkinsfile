@@ -6,7 +6,7 @@ pipeline {
     IMAGE_TAG      =  new Date().format('yyyyMMdd-HHmm')
     DOCKERHUB_CRED = 'dockerhub-creds'
 
-    EC2_HOST       = 'ec2-18-222-238-156.us-east-2.compute.amazonaws.com'
+    EC2_HOST       = 'ec2-3-131-91-43.us-east-2.compute.amazonaws.com'
     EC2_USER       = 'sminchew'
     EC2_CREDS      = 'ec2-creds'
     APP_PORT       = '8080'
@@ -91,4 +91,5 @@ pipeline {
     success { echo "Deployed: http://${EC2_HOST}:9090/" }
     always  { echo 'Pipeline finished.' }
   }
+
 }
