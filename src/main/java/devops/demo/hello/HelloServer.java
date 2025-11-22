@@ -51,7 +51,7 @@ public class HelloServer {
                     + "<body>\r\n"
                     + "    <h1>Hello, DevOps!</h1>\r\n"
                     + "    <p>Welcome to our first DevOps demo application.</p>\r\n"
-                    + "    <p>My First Ci/CO project completed. It works!</p>\r\n"
+                    + "    <p>My EC2 hosted automation pipeline works!</p>\r\n"
                     + "    \r\n"
                     + "    <div class=\"footer\">\r\n"
                     + "        © DevOps Demo | Computer Science - Steven Minchew\r\n"
